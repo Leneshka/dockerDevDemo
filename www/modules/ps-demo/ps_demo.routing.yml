@@ -1,0 +1,7 @@
+ps_demo.content:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\ps_demo\Controller\HelloController::content'
+    _title: 'Hello!'
+  requirements:
+    _permission: 'access content'

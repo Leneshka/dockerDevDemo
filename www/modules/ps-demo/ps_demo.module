@@ -1,0 +1,19 @@
+<?php
+/**
+ * @file
+ * A description of what your module does.
+ *
+ * Unfortunately currently it does nothing.
+ */
+
+
+
+
+
+
+
+function ps_demo_element_info_alter(array &$types) { // Decrease the default size of textfields.
+    if (isset($types ['textfield']['#size'])) {
+        $types ['textfield']['#size'] = 40;
+  }
+}

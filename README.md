@@ -26,4 +26,6 @@ docker run -d -p 80:80 -p 9000:9000 -v /$(pwd)/www:/var/www/site --link <mysql c
 Use <user>, <password> and <db_name> from second step in Drupal configuration.
 Database host in Advanced Settings is `mysql`.
 
+5. Enable demo plugin as described [here](https://github.com/Leneshka/DrupalDemoModule/blob/master/README.md).
+
 For php debug troubleshooting, see [forum](https://devnet.jetbrains.com/message/5533800).

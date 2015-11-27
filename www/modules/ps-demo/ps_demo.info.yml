@@ -1,0 +1,6 @@
+name: Demo Module by PhpStorm
+type: module
+package: Custom
+description: 'Drupal demo module developed in PhpStorm'
+core: 8.x
+version: 1.0
