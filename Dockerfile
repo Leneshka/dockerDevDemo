@@ -11,6 +11,7 @@ RUN a2enmod rewrite
 #Set up debugger
 RUN echo "zend_extension=/usr/lib/php5/20131226/xdebug.so" >> /etc/php5/apache2/php.ini
 RUN echo "xdebug.remote_enable=1" >> /etc/php5/apache2/php.ini
+RUN echo " xdebug.max_nesting_level=256" >> /etc/php5/apache2/php.ini
 
 #provide remote host for debug
 
