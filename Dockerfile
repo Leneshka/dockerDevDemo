@@ -14,7 +14,7 @@ RUN echo "xdebug.remote_enable=1" >> /etc/php5/apache2/php.ini
 
 #provide remote host for debug
 
-#works for Linix & Mac
+#works for Linux & Mac
 #RUN echo "xdebug.remote_host=172.17.42.1" >> /etc/php5/apache2/php.ini
 
 #both work for Windows
