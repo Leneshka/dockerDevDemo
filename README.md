@@ -20,7 +20,7 @@ docker run -d --name <mysql container name> -e MYSQL_USER=<user> -e MYSQL_PASSWO
 ```
 3. Run container with mysql container linked:
 ```
-docker run -d -p 80:80 -p 9000:9000 -v /$(pwd)/www:/var/www/site --link <mysql container name>:myqsl <image name>
+docker run -d -p 80:80 -p 9000:9000 -v /$(pwd)/www:/var/www/site --link <mysql container name>:mysql <image name>
 ```
 4. Open [browser](http://192.168.99.100/) to install Drupal.
 Use <user>, <password> and <db_name> from second step in Drupal configuration.
