@@ -23,6 +23,9 @@ RUN echo "xdebug.remote_enable=1" >> /etc/php5/apache2/php.ini
 # ip of Virtual Box Host-Only Network
 RUN echo "xdebug.remote_host=192.168.56.1" >> /etc/php5/apache2/php.ini
 
+#ip of Virtual Box Host-Only Network works for Mac
+#RUN echo "xdebug.remote_host=192.168.99.1" >> /etc/php5/apache2/php.ini
+
 
 ENV APACHE_RUN_USER www-data
 ENV APACHE_RUN_GROUP www-data
